@@ -25,14 +25,13 @@ export default function InvestmentCalc() {
   }
 
   return (
-    <section className="">
-      <Header />
+    <section className="flex flex-col items-center ">
+     <Header />
       <UserInput userInput={userInput} onChange={handleChange} />
-      {inputIsValid ? (
-        <Results input={userInput} />
-      ) : (
-        <p className="center text-red-300">Please Enter Duration Greater than Zero</p>
+      {!inputIsValid && (
+        <p className="center">Please enter a duration greater than zero.</p>
       )}
+      {inputIsValid && <Results input={userInput} />}
     </section>
   );
 }

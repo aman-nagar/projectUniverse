@@ -1,10 +1,8 @@
-
- @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
 
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: radial-gradient(#303b37, #1a1f1d);
@@ -16,7 +14,6 @@ body {
   text-align: center;
   margin: 3rem auto;
 }
-
 
 #header img {
   width: 5rem;
@@ -46,7 +43,7 @@ body {
 #user-input label {
   display: block;
   margin-bottom: 0.25rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -63,12 +60,8 @@ body {
 }
 
 #result {
-  max-width: 50rem;
-  margin: 2rem auto;
-  padding: 1rem;
+  max-width: 40rem;
   table-layout: fixed;
-  border-spacing: 1rem;
-  text-align: right;
 }
 
 #result thead {
@@ -77,11 +70,18 @@ body {
 }
 
 #result tbody {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 0.85rem;
   color: #c2e9e0;
 }
 
 .center {
   text-align: center;
-} 
+}
+
+/* @media only screen and (max-width: 425px) {
+  .py-2.px-4 {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+} */
