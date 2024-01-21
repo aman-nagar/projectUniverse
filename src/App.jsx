@@ -1,7 +1,7 @@
 // App.jsx
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import InvestmentCalc from './projects/invCalc/InvestmentCalc';
+import InvestmentCalc from './investment_calc/components/InvestmentCalc.jsx';
 import Home from './Home';
 
 function App() {
