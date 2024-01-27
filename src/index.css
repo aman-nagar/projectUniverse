@@ -9,4 +9,8 @@
     -moz-osx-font-smoothing: grayscale;
     color: #e1eeeb;
     min-height: 100vh;
-  } */
+     background-color: #b61924;
+     background: radial-gradient(#303b37, #1a1f1d);
+  }
+
+   */
