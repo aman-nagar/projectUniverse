@@ -5,7 +5,7 @@ import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 export default function ParticleBg() {
   async function loadParticles(main) {
-    console.log(main);
+    // console.log(main);
     await loadFull(main);
   }
   return (
@@ -118,9 +118,9 @@ export default function ParticleBg() {
             }
           }
         },
-        //  background: {
-        //   color: "#b61924", // Set your desired background color here
-        // },
+          //  background: {
+          //   color: "#b61924", // Set your desired background color here
+          // },
         "retina_detect": true,
         "config_demo": {
           "hide_card": false,
