@@ -9,7 +9,7 @@ const Navigation = () => {
         <li className="">
           <Link
             to="/investment-calculator"
-            className="text-red-200 font-bold bg-radial-gradient p-10 rounded-[100%]"
+            className="text-white-200 font-bold bg-radial-gradient p-10 rounded-[100%]"
           >
             Investment Calculator
           </Link>
@@ -17,7 +17,7 @@ const Navigation = () => {
         <li>
           <Link
             to="/countdown-timer"
-            className="text-red-200 font-bold bg-radial-gradient p-10 rounded-[100%]"
+            className="text-white-200 font-bold bg-radial-gradient p-10 rounded-[100%]"
           >
             Countdown Timer
           </Link>
@@ -25,9 +25,15 @@ const Navigation = () => {
         <li>
           <Link
             to="/project-management-app"
-            className="text-red-200 font-bold bg-radial-gradient p-10 rounded-[100%]"
+            className="text-white-200 font-bold bg-radial-gradient p-10 rounded-[100%]"
           >
             Project Management App
+          </Link>
+          <Link
+            to="/shopify-api"
+            className="text-white-200 font-bold bg-radial-gradient p-10 rounded-[100%]"
+          >
+            Shopify Api's Product
           </Link>
         </li>
       </ul>

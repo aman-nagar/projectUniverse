@@ -1,7 +1,7 @@
 // Home.jsx
 import React from "react";
 import Navigation from "./Navigation";
-import ParticleBg from "./project_managment_app/components/ParticleBg";
+import ParticleBg from "./ParticleBg";
 
 const Home = () => {
   return (
