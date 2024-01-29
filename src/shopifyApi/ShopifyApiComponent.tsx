@@ -5,8 +5,6 @@ import ApiInput from './ApiInput';
 import CollectionsList from './CollectionsList';
 import CsvGenerator from './CsvGenerator';
 
-
-
 const ShopifyApiComponent: React.FC = () => {
     const [apiUrl, setApiUrl] = useState('');
     const [collections, setCollections] = useState<Array<{ id: number; title: string }>>([]);

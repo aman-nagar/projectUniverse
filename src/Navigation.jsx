@@ -29,12 +29,12 @@ const Navigation = () => {
           >
             Project Management App
           </Link>
-          <Link
+          {/* <Link
             to="/shopify-api"
             className="text-white-200 font-bold bg-radial-gradient p-10 rounded-[100%]"
           >
             Shopify Api's Product
-          </Link>
+          </Link> */}
         </li>
       </ul>
     </div>

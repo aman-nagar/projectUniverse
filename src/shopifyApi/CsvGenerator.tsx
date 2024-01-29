@@ -1,4 +1,5 @@
 // CsvGenerator.tsx
+
 import React from 'react';
 import Papa from 'papaparse';
 
@@ -32,23 +33,19 @@ const CsvGenerator: React.FC<CsvGeneratorProps> = ({ products }) => {
   };
 
   return (
-    <div className="my-4">
-      <h2 className="text-xl font-bold">All Products</h2>
+    <div>
+      <h2>All Products</h2>
       {products ? (
         <div>
-          <ul className="list-disc pl-6">
+          <ul>
             {products.map((product) => (
-              <li key={product.id} className="text-gray-700">
-                {product.title}
-              </li>
+              <li key={product.id}>{product.title}</li>
             ))}
           </ul>
-          <button onClick={generateCSV} className="mt-2 bg-green-500 text-white p-2 rounded-md">
-            Generate CSV
-          </button>
+          <button onClick={generateCSV}>Generate CSV</button>
         </div>
       ) : (
-        <p className="text-gray-700">No products available.</p>
+        <p>No products available.</p>
       )}
     </div>
   );

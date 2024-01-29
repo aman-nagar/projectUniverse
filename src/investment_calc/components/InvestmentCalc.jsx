@@ -25,7 +25,7 @@ export default function InvestmentCalc() {
   }
 
   return (
-    <section className="flex flex-col items-center bg-radial-gradient">
+    <section className="flex flex-col items-center bg-radial-gradient h-screen">
      <Header />
       <UserInput userInput={userInput} onChange={handleChange} />
       {!inputIsValid && (
