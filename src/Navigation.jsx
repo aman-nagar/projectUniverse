@@ -35,6 +35,12 @@ const Navigation = () => {
           >
             Shopify Api's Product
           </Link> */}
+          <Link
+            to="/ecom"
+            className="text-white-200 font-bold bg-radial-gradient p-10 rounded-[100%]"
+          >
+            E-commerce
+          </Link>
         </li>
       </ul>
     </div>

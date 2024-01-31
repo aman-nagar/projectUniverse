@@ -5,6 +5,7 @@ import CountDown from './countdown_game/components/CountDown.jsx';
 import ProjectManagementApp from './project_managment_app/components/ProjectManagement.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ShopifyApiComponent from './shopifyApi/ShopifyApiComponent.tsx';
+import Ecom from './e-com/components/Ecom.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/countdown-timer" element={<CountDown />} />
         <Route path="/project-management-app" element={<ProjectManagementApp/>} />
         <Route path="/shopify-api" element={<ShopifyApiComponent/>} />
+        <Route path="/ecom" element={<Ecom/>} />
       </Routes>
       
     </BrowserRouter>
