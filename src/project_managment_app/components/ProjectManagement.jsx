@@ -1,7 +1,7 @@
 // ProjectManagement.jsx
 // import ParticleBg from "../../ParticleBg";
 import React, { useState } from "react";
-import ProjectsSideBar from "./ProjectsSideBar";
+import ProjectsSidebar from "./ProjectsSidebar.jsx";
 import NewProject from "./NewProject";
 import NoProjectSelected from "./NoProjectSelected";
 import SelectedProject from "./SelectedProject";
@@ -116,7 +116,7 @@ export default function ProjectManagement() {
 
   return (
     <section className="relative h-screen bg-radial-gradient pt-20 flex gap-8 ">
-      <ProjectsSideBar
+      <ProjectsSidebar
         onStartAddProject={handleStartAddProject}
         projects={projectsState.projects}
         onSelectProject={handleSelectedProject}
